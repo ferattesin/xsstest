@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
-  <head><title>XSS Test</title></head>
+  <head><title>XSS Cookie Test</title></head>
   <body>
-    <script>alert("XSS ÇALIŞTI!");</script>
+    <script>
+      alert("COOKIE: " + document.cookie);
+    </script>
   </body>
 </html>
