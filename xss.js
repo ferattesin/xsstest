@@ -1,0 +1,1 @@
+alert("COOKIE: " + document.cookie);
